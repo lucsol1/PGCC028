@@ -15,7 +15,6 @@
 #front-slide(
   
   title: "OPC UA Over TSN (Time Sensitive Network) for Vertical and Machine to Machine Communication",
-  subtitle: "Sistemas de Numeração",
   authors: "Abdollah Moshiri e Ali Mohammad Afshin Hemmatyar",
   info: [Tópicos Especiais em Computação Inteligente I],
   // date: auto é o padrão -> hoje, formatada em pt-BR automaticamente
@@ -64,7 +63,7 @@
 
    1. Sincronizaçao de tempo: Grandmaster Clock;
    2. Latência baixa e garantida (Bounded Low Latency - BLL): Agendamento de tráfego usando o IEEE 802.1Qbv e classes de prioridade no trafego;
-   3. Ultraconfiabilidade: Usa IEEE 802.1CB, o padrão duplica as mensagens quadrado a quadra e envia por faminnhos físicos separados;
+   3. Ultraconfiabilidade: Usa IEEE 802.1CB, o padrão duplica as mensagens quadra a quadra e envia por caminhos físicos separados;
    4. Gerenciamento de recursos: Utiliza IEEE 802.1Qcc para configurar e reservar os recursos da rede.
 ]
 
