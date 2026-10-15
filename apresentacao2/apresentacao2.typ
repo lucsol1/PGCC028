@@ -49,8 +49,8 @@
     columns: (1fr, 1fr),
     gutter: 20pt,
     [
-      - *WCET e BCET:* Limites superior e inferior do tempo de execução de um programa.
-      - *Análise Estática vs. Medição:* Testes empíricos perdem caminhos críticos. A análise estática avalia matematicamente sem executar o código:
+      - *WCET e BCET:* Limites superior e inferior do tempo de execução de um programa @kulkarni2016.
+      - *Análise Estática vs. Medição:* Testes empíricos perdem caminhos críticos. A análise estática avalia matematicamente sem executar o código @kulkarni2016:
         1. *Análise de Fluxo:* Identifica caminhos, limites máximos de loops e caminhos inviáveis no CFG.
         2. *Análise de Baixo Nível:* Modela o impacto de hardwares modernos (caches, pipelines, execução *out-of-order*).
         3. *Cálculo:* Aplica programação linear ou árvores para acotar o WCET.
@@ -59,7 +59,7 @@
       #align(center + horizon)[
         #figure(
           image("img/figure1.png", width: 100%),
-          caption: [Noções básicas de análise temporal. Fonte @10506350],
+          caption: [Noções básicas de análise temporal. Fonte @Denzler],
         )
       ]
     ]
@@ -83,7 +83,7 @@
       #align(center + horizon)[
         #figure(
           image("img/figure2.png", width: 100%),
-          caption: [Layout do quadro Ethernet com tag VLAN  . Fonte @10506350],
+          caption: [Layout do quadro Ethernet com tag VLAN  . Fonte @Denzler],
         )
       ]
     ],
@@ -118,7 +118,7 @@
       #align(center + horizon)[
         #figure(
           image("img/figure3.png", width: 100%),
-          caption: [Diagrama de latência ponta a ponta do OPC UA PubSub via TSN. Fonte @10506350],
+          caption: [Diagrama de latência ponta a ponta do OPC UA PubSub via TSN. Fonte @Denzler],
         )
       ]
     ],
@@ -131,7 +131,7 @@
   )
   #figure(
     image("img/figure4.png"),
-    caption: [Configuração de avaliação com três configurações de rede diferentes. Fonte @10506350]
+    caption: [Configuração de avaliação com três configurações de rede diferentes. Fonte @Denzler]
   )
 ]
 
